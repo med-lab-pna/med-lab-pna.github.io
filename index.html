@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>Medlab — Medicina Laboral</title>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset='utf-8'>	
+	<meta name="viewport" content="width=device-width" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<script>
+	  $(document).ready(function(){
+	    $("#header").sticky({topSpacing:0});
+	  });
+	</script>
+</head>
+<body>
+	<div id="info">
+		<div id="wrap">
+			<p id="telefono">(0343) 154-641442 </p><p id="mail">medlab@live.com.ar</p>
+			<p id="location">Paraná, Entre Rios</p>
+		</div>
+	</div>
+	<div id="header">
+		<div id="wrap">
+			<h1 id="logo"></h1>
+			<nav>
+				<ul>
+					<a href="#"><li class="current">Inicio</li></a>
+					<a href="servicios.html"><li>Servicios</li></a>
+					<a href="nosotros.html"><li>¿Quienes somos?</li></a>
+					<a href="#"><li>Contacto</li></a>
+				</ul>
+			</nav>
+			<select onchange="location = this.options[this.selectedIndex].value;">
+				<option value="#" selected>Inicio</option>
+				<option value="servicios.html">Servicios</option>
+				<option value="nosotros.html">¿Quienes somos?</option>
+				<option>Contacto</option>
+			</select>
+		</div>
+	</div>
+	<div id="cover">
+		<div id="wrap">
+			<div id="panel">
+				<h2>Medlab</h2>
+				<h3>Somos un grupo de profesionales, especialistas en salud laboral, con 15 años de trayectoria que abalan nuestra integridad y compromiso medico.<br><br>
+				Nuestra misión es brindar un servicio integral y de excelencia, en todo lo que concierne a la medicina relacionada con el trabajo, destinado tanto a las empresas como a sus trabajadores.</h3>
+			</div>
+		</div>
+	</div>
+	<div id="service-home">
+		<div id="wrap" align="center">
+			<h3>Estos son algunos de los examenes que brindamos</h3>
+			<h6>Para ver la lista completa de examenes haga click <a href="servicios.html">aquí</a>.</h6>
+			<ul>
+				<li>
+					<img src="img/corazon.png" class="icon">
+					<p class="titulo-list">Exámenes preocupacionales o de ingreso</p>
+					<p class="subtitulo-list">Permiten determinar la aptitud del postulante conforme sus condiciones psicofísicas para el desempeño de las actividades requeridas<br>para el puesto.</p>
+				</li>
+				<li>
+					<img src="img/corazon.png" class="icon">
+					<p class="titulo-list">Exámenes<br>Periódicos</p>
+					<p class="subtitulo-list">Apuntan a conocer el estado de salud del personal de la empresa, el seguimiento de patologías preexistentes y la detección precoz de afecciones producidas por aquellos agentes de riesgo a los cuales el trabajador se encuentra expuesto.</p>
+				</li>
+				<li>
+					<img src="img/corazon.png" class="icon">
+					<p class="titulo-list">Exámenes previos a transferencia de puesto</p>
+					<p class="subtitulo-list">A realizarse cuando el empleado comienza una nueva actividad o tarea en la empresa, permiten determinar la aptitud del empleado conforme sus condiciones psicofísicas para el desempeño en el nuevo puesto</p>
+				</li>
+			</ul>
+			<div class="clr"></div>
+		</div>		
+	</div>
+	<div id="conocer-mas">
+		<div id="wrap">
+			<div id="boxes">
+				<h3>Conozcanos más</h3>
+				<h6>Conozca nuestras intalaciones y .... lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum </h6>
+				<a href="nosotros.html"><div id="button">CONOCER MAS</div></a>
+			</div>
+		</div>
+	</div>
+	<div id="contacto">
+		<div id="wrap">
+			<p class="titulo">Medlab — Medicina laboral</p>
+			<ul>
+				<li>
+					<p class="titulo-seccion">Mapa del sitio</p>
+					<a href="#"><p class="link">Home</p></a>
+					<a href="#"><p class="link">Servicios</p></a>
+					<a href="#"><p class="link">¿Quienes somos?</p></a>
+					<a href="#"><p class="link">Contacto</p></a>
+				</li>
+				<li>
+					<p class="titulo-seccion">Contacto</p>
+					<p class="elemento-seccion">Telefono: (0343) 154-641442</p>
+					<p class="elemento-seccion">E-mail: medlab@live.com.ar</p>
+				</li>
+				<li>
+					<p class="titulo-seccion">Ubicacion</p>
+					
+				</li>
+			</ul>
+		</div>
+		<div class="clr"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<html>
+<head>
+	<title>Medlab — Medicina Laboral</title>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset='utf-8'>	
+	<meta name="viewport" content="width=device-width" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#header").sticky({topSpacing:0});
+			$(".fancybox").fancybox();
+		});
+	</script>
+</head>
+<body>
+	<div id="info">
+		<div id="wrap">
+			<p id="telefono">(0343) 154-641442 </p><p id="mail">medlab@live.com.ar</p>
+			<p id="location">Paraná, Entre Rios</p>
+		</div>
+	</div>
+	<div id="header">
+		<div id="wrap">
+			<h1 id="logo"></h1>
+			<nav>
+				<ul>
+					<a href="index.html"><li>Inicio</li></a>
+					<a href="servicios.html"><li>Servicios</li></a>
+					<a href="#" class="current"><li>¿Quienes somos?</li></a>
+					<a href="#"><li>Contacto</li></a>
+				</ul>
+			</nav>
+			<select onchange="location = this.options[this.selectedIndex].value;">
+				<option value="index.html" >Inicio</option>
+				<option value="servicios.html">Servicios</option>
+				<option selected>¿Quienes somos?</option>
+				<option>Contacto</option>
+			</select>
+		</div>
+	</div>
+	<div id="covern">
+		<div id="wrap">
+			<div id="panel">
+				<h2>¿Quienes somos?</h2>
+				<h3>Somos un grupo de profesionales, especialistas en salud laboral, con 15 años de trayectoria que abalan nuestra integridad y compromiso medico.<br><br>
+				Nuestra misión es brindar un servicio integral y de excelencia, en todo lo que concierne a la medicina relacionada con el trabajo, destinado tanto a las empresas como a sus trabajadores.</h3>
+			</div>
+		</div>
+	</div>
+	<div id="fotos">
+		<div id="wrap">
+			<h2>Nuestras instalaciones</h2>
+			<div class="filaimg">
+				<div class="imgshow small">									
+					<a class="fancybox" rel="group" href="img/cover.jpg"><img src="img/cover.jpg" alt="Probando" /></a>
+					<p>Prueba imagen</p>
+				</div>
+				<div class="imgshow big">
+									
+					<a class="fancybox" rel="group" href="img/laura.jpg"><img src="img/cover.jpg" alt="Probando" /></a>
+					<p>Prueba imagen</p>
+				</div>
+			</div>
+
+			<div class="filaimg">
+				<div class="imgshow medium">
+									
+					<a class="fancybox" rel="group" href="img/cover.jpg"><img src="img/cover.jpg" alt="Probando" /></a>
+					<p>Prueba imagen</p>
+				</div>
+				<div class="imgshow medium">
+									
+					<a class="fancybox" rel="group" href="img/cover.jpg"><img src="img/cover.jpg" alt="Probando" /></a>
+					<p>Prueba imagen</p>
+				</div>
+			</div>
+			<div class="filaimg">				
+				<div class="imgshow smallfull">					
+					<a class="fancybox" rel="group" href="img/cover.jpg"><img src="img/cover.jpg" alt="Probando" /></a>
+					<p>Prueba imagen</p>
+				</div>
+				<div class="imgshow smallfull">
+									
+					<a class="fancybox" rel="group" href="img/cover.jpg"><img src="img/cover.jpg" alt="Probando" /></a>
+					<p>Prueba imagen</p>
+				</div>
+				<div class="imgshow smallfull">
+									
+					<a class="fancybox" rel="group" href="img/cover.jpg"><img src="img/cover.jpg" alt="Probando" /></a>
+					<p>Prueba imagen</p>
+				</div>
+			</div>
+
+			<div class="clr"></div>
+		</div>
+	</div>
+	<div class="overlay">
+		<div class="the-click" onclick="$(this).hide();">
+			<p>VER UBICACION</p>
+		</div>
+		<iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/chukyka.mjna5574/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1IjoiY2h1a3lrYSIsImEiOiIxNjJlMjk1OTIxNzY4MDFkZmE3MTYyODMwMTE5YjY0NiJ9.Dal3JNYlqTMv-ym3G7jqgg'></iframe>
+	</div>
+	<div id="contacto">
+		<div id="wrap">
+			<p class="titulo">Medlab — Medicina laboral</p>
+			<ul>
+				<li>
+					<p class="titulo-seccion">Mapa del sitio</p>
+					<a href="index.html"><p class="link">Home</p></a>
+					<a href="servicios.html"><p class="link">Servicios</p></a>
+					<a href="nosotros.html"><p class="link">¿Quienes somos?</p></a>
+				</li>
+				<li>
+					<p class="titulo-seccion">Contacto</p>
+					<p class="elemento-seccion">Telefono: (0343) 154-641442</p>
+					<p class="elemento-seccion">E-mail: medlab@live.com.ar</p>
+				</li>
+				<li>
+					<p class="titulo-seccion">Ubicacion</p>
+					
+				</li>
+			</ul>
+		</div>
+		<div class="clr"></div>
+	</div>
+</body>
+</html>
